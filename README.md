@@ -38,11 +38,11 @@ It's a classification task that will help us predict if a patient has a high ris
 ### Access
 The dataset is external to the Azure ML ecosystem so we added it to our registered datasets as you can see in the following screenshots:
 
-![GitHub Logo](/images/1.png)
-![GitHub Logo](/images/2.png)
+![GitHub Logo](/images/1.PNG)
+![GitHub Logo](/images/2.PNG)
 
 Now we can copy that code and use it to access our data and even improve it in the future (For example, add more data and versions)
-![GitHub Logo](/images/3.png)
+![GitHub Logo](/images/3.PNG)
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
