@@ -13,12 +13,12 @@ We will then compare the performance of both the models and deploy the best perf
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
 
 ## Dataset
-We used the Stroke Prediction Dataset from Kaggle (11 clinical features por predicting stroke events)
+We used the [Stroke Prediction Dataset from Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset) (11 clinical features por predicting stroke events) 
 
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths.
 This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relavant information about the patient.
 
-Attribute Information
+### Overview: Attribute Information
 1) id: unique identifier
 2) gender: "Male", "Female" or "Other"
 3) age: age of the patient
@@ -33,11 +33,9 @@ Attribute Information
 12) stroke: 1 if the patient had a stroke or 0 if not
 *Note: "Unknown" in smoking_status means that the information is unavailable for this patient
 
-### Overview
-*TODO*: Explain about the data you are using and where you got it from.
 
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+It's a classification task that will help us predict if a patient has a high risk of having a stroke or no.
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
