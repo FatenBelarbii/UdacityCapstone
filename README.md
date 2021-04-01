@@ -44,6 +44,10 @@ The dataset is external to the Azure ML ecosystem so we added it to our register
 Now we can copy that code and use it to access our data and even improve it in the future (For example, add more data and versions)
 ![GitHub Logo](/images/3.PNG)
 
+### Exploratory Data Analysis
+
+Only 4.9% of people are affected by stroke so the data available to us is imbalanced and we need to balance it before giving to our machine learning algorithms.
+
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
