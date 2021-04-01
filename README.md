@@ -36,7 +36,13 @@ This dataset is used to predict whether a patient is likely to get stroke based 
 It's a classification task that will help us predict if a patient has a high risk of having a stroke or no.
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
+The dataset is external to the Azure ML ecosystem so we added it to our registered datasets as you can see in the following screenshots:
+
+![GitHub Logo](/images/1.png)
+![GitHub Logo](/images/2.png)
+
+Now we can copy that code and use it to access our data and even improve it in the future (For example, add more data and versions)
+![GitHub Logo](/images/3.png)
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
