@@ -47,7 +47,9 @@ Now we can copy that code and use it to access our data and even improve it in t
 ### Exploratory Data Analysis
 
 Only 4.9% of people are affected by stroke so the data available to us is imbalanced and we need to balance it before giving to our machine learning algorithms.
-Also, we have missing values.
+Also, we have missing values so we added a function to prepare the data.
+
+![GitHub Logo](/images/train.PNG)
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
