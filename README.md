@@ -78,6 +78,10 @@ Also, we have missing values so we added a function to prepare the data.
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+![GitHub Logo](/images/Capture8.PNG)
+![GitHub Logo](/images/Capture9.PNG)
+![GitHub Logo](/images/Capture10.PNG)
+![GitHub Logo](/images/Capture11.PNG)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
