@@ -53,6 +53,11 @@ Also, we have missing values so we added a function to prepare the data.
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+![GitHub Logo](/images/Capture1.PNG)
+![GitHub Logo](/images/Capture2.PNG)
+![GitHub Logo](/images/Capture3.PNG)
+![GitHub Logo](/images/Capture4.PNG)
+![GitHub Logo](/images/Capture5.PNG)
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
