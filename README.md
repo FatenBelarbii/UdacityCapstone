@@ -70,6 +70,10 @@ Also, we have missing values so we added a function to prepare the data.
 ## Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
+![GitHub Logo](/images/12.PNG)
+![GitHub Logo](/images/13.PNG)
+![GitHub Logo](/images/14.PNG)
+![GitHub Logo](/images/15.PNG)
 
 ### Results
 *TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
