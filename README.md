@@ -52,46 +52,44 @@ Also, we have missing values so we added a function to prepare the data.
 ![GitHub Logo](/images/train.PNG)
 
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+The screenshot below gives an overview of the `automl` settings and configuration used for this experiment
 ![GitHub Logo](/images/Capture1.PNG)
+And here are the results and the details of the run
 ![GitHub Logo](/images/Capture2.PNG)
 ![GitHub Logo](/images/Capture3.PNG)
 ![GitHub Logo](/images/Capture4.PNG)
 ![GitHub Logo](/images/Capture5.PNG)
 
+The results of the best run, of the best model
 ![GitHub Logo](/images/Capture6.PNG)
 ![GitHub Logo](/images/Capture7.PNG)
 
-### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+In future we can improve the best model by choosing different primary metrics and different classification methods and calculating and comparing the values of mean_squared_error, to study how our predictions have deviated from actual values and, we study mean absolute percent error (MAPE) in detail. All these could help us in reducing error in our model and help us to study the model much faster. We can also add more data to the model, or we can add more columns. Also, we can make new columns with existing ones with feature engineering and by applying our domain knowledge and obtain better results. Also, we can provide a more user-friendly user interface wile consuming the api’s and the swager documentation. Lot of steps run on command-line can be ran directly from Jyupiter notebook or could be automated in a single script.
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
+First the data was loaded into dataset and proper compute infra was created to run with suitable hyperdrive configuration.
+Here are the run details:
 ![GitHub Logo](/images/Capture12.PNG)
 ![GitHub Logo](/images/Capture13.PNG)
+These screenshots rpresent the model chosen for this experiment:
 ![GitHub Logo](/images/Capture14.PNG)
 ![GitHub Logo](/images/Capture15.PNG)
 
-### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+In future we can improve the best model by choosing different primary metrics and different classification methods and calculating and comparing the values of mean_squared_error, to study how our predictions have deviated from actual values and, we study mean absolute percent error (MAPE) in detail. All these could help us in reducing error in our model and help us to study the model much faster. We can also add more data to the model, or we can add more columns. Also, we can make new columns with existing ones with feature engineering and by applying our domain knowledge and obtain better results. Also, we can provide a more user-friendly user interface wile consuming the api’s and the swager documentation. Lot of steps run on command-line can be ran directly from Jyupiter notebook or could be automated in a single script. We also do have room to select more hyperparameters to tune.
 
 ## Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+Active Endpoint for Depoloyed Model:
+![GitHub Logo](/images/Capturefghj.PNG)
+
+Active Endpoint for Depoloyed Model Tested:
 ![GitHub Logo](/images/Capture8.PNG)
 ![GitHub Logo](/images/Capture9.PNG)
 ![GitHub Logo](/images/Capture10.PNG)
 ![GitHub Logo](/images/Capture11.PNG)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+Full recording: https://www.youtube.com/watch?v=KK_Vn8FfCrs
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+Application Insights Were Enlabled and a .onnx model was generated for AutoML Method.
