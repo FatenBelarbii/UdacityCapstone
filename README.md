@@ -89,7 +89,7 @@ Active Endpoint for Depoloyed Model Tested:
 ![GitHub Logo](/images/Capture11.PNG)
 
 ## Screen Recording
-Full recording: https://www.youtube.com/watch?v=KK_Vn8FfCrs
+Full recording: https://www.youtube.com/watch?v=m0Qa34vFsmM
 
 ## Standout Suggestions
 Application Insights Were Enlabled and a .onnx model was generated for AutoML Method.
